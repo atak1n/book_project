@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="row">
+    <div class="col">
+      <div class="row">
+        <div class="col-2">
+          <a href="{% url 'books_new' %}"><button class="btn btn-success ml-3">add book</button>
+        </div>
+        <div class="col">
+          <div class="list-group">
+            {% for book in all_books %}
+              <a href="{% url 'books_detail' book.pk %}" class="list-group-item list-group-item-action list-group-item-primary">{{ book.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+{% endblock content %}
