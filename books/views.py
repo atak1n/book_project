@@ -2,6 +2,8 @@ from django.views.generic import (
     ListView,
     DetailView,
     CreateView,
+    UpdateView,
+    DeleteView
 )
 
 from .models import Book
@@ -25,3 +27,9 @@ class BooksCreatView(CreateView):
     fields = ['title', 'year', 'author', 'price']
 
 
+class BooksUpdateView(UpdateView):
+    pass
+
+
+class BooksDeleteView(DeleteView):
+    pass

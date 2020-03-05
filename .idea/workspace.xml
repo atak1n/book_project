@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="815f75a8-e6b1-49f9-b2e2-ed3e967881f5" name="Default Changelist" comment="" />
+    <list default="true" id="815f75a8-e6b1-49f9-b2e2-ed3e967881f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/registration/password_change_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/templates/registration/password_change_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,14 +25,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
         <option value="Gherkin feature file" />
+        <option value="HTML File" />
         <option value="DJ Templ" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YhOlkjOQj2FfYjmH8iE6XfPsEe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,11 +47,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../blog_project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\my_project\book_project\books_project" />
+      <recent name="C:\Users\admin\Desktop\my_project\book_project\books_project\books" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\my_project\book_project\books_project\user\templates" />
     </key>
@@ -76,7 +99,7 @@
       <updated>1583391512170</updated>
       <workItem from="1583391513498" duration="2992000" />
       <workItem from="1583394662689" duration="539000" />
-      <workItem from="1583395449052" duration="13836000" />
+      <workItem from="1583395449052" duration="15294000" />
     </task>
     <servers />
   </component>
@@ -96,25 +119,29 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="612" y="335" key="FileChooserDialogImpl/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583407214539" />
-    <state width="1379" height="218" key="GridCell.Tab.0.bottom" timestamp="1583412978490">
+    <state width="1379" height="218" key="GridCell.Tab.0.bottom" timestamp="1583414101958">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.bottom/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583412978490" />
-    <state width="1379" height="218" key="GridCell.Tab.0.center" timestamp="1583412978490">
+    <state width="1379" height="218" key="GridCell.Tab.0.bottom/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414101958" />
+    <state width="1379" height="218" key="GridCell.Tab.0.center" timestamp="1583414101958">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.center/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583412978490" />
-    <state width="1379" height="218" key="GridCell.Tab.0.left" timestamp="1583412978490">
+    <state width="1379" height="218" key="GridCell.Tab.0.center/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414101958" />
+    <state width="1379" height="218" key="GridCell.Tab.0.left" timestamp="1583414101957">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.left/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583412978490" />
-    <state width="1379" height="218" key="GridCell.Tab.0.right" timestamp="1583412978490">
+    <state width="1379" height="218" key="GridCell.Tab.0.left/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414101957" />
+    <state width="1379" height="218" key="GridCell.Tab.0.right" timestamp="1583414101958">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.right/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583412978490" />
+    <state width="1379" height="218" key="GridCell.Tab.0.right/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414101958" />
     <state x="220" y="72" key="SettingsEditor" timestamp="1583402863059">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="220" y="72" key="SettingsEditor/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583402863059" />
+    <state x="382" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583414239389">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="382" y="181" width="672" height="678" key="search.everywhere.popup/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414239389" />
   </component>
 </project>
