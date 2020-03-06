@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+from books_project import constants
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -137,8 +138,8 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 #SendGrid configs
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
+EMAIL_HOST = constants.EMAIL_HOST
+EMAIL_HOST_USER = constants.EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD = constants.EMAIL_HOST_PASSWORD
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
