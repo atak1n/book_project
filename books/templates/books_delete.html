@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Delete {{ book }} ?</h1>
+  <form method="post">
+  {% csrf_token %}
+  {{ form|crispy }}
+  <input class="btn btn-success mk-3" type="submit" value="Update">
+  </form>
+{% endblock content %}

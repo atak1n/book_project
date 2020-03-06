@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="815f75a8-e6b1-49f9-b2e2-ed3e967881f5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/templates/books_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/books/templates/books_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/registration/pasword_reset_subject.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0c032282-0a03-4726-a6bf-768a15166fc1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0c032282-0a03-4726-a6bf-768a15166fc1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/templates/books_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/books/templates/books_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/books/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/books/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/books_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/books_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\admin\Desktop\my_project\book_project\books_project\.idea" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1YhOlkjOQj2FfYjmH8iE6XfPsEe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,7 +108,9 @@
       <updated>1583391512170</updated>
       <workItem from="1583391513498" duration="2992000" />
       <workItem from="1583394662689" duration="539000" />
-      <workItem from="1583395449052" duration="17489000" />
+      <workItem from="1583395449052" duration="17983000" />
+      <workItem from="1583476935720" duration="8000" />
+      <workItem from="1583476952001" duration="5002000" />
     </task>
     <task id="LOCAL-00001" summary="password_change_form.html">
       <created>1583414411395</created>
@@ -104,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583414411395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="password_reset_confirm.html">
+      <created>1583416567713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583416567713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="password_change_form.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="password_change_form.html" />
+    <MESSAGE value="password_reset_confirm.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="password_reset_confirm.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="173" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583399895840">
@@ -123,41 +146,41 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="360" y="196" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583396525972" />
-    <state x="327" y="22" key="CommitChangelistDialog2" timestamp="1583414410012">
+    <state x="327" y="22" key="CommitChangelistDialog2" timestamp="1583416566458">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="327" y="22" key="CommitChangelistDialog2/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414410012" />
+    <state x="327" y="22" key="CommitChangelistDialog2/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583416566458" />
     <state x="612" y="335" key="FileChooserDialogImpl" timestamp="1583407214539">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="612" y="335" key="FileChooserDialogImpl/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583407214539" />
-    <state width="1379" height="218" key="GridCell.Tab.0.bottom" timestamp="1583415625896">
+    <state width="1379" height="218" key="GridCell.Tab.0.bottom" timestamp="1583417038276">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.bottom/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583415625896" />
-    <state width="1379" height="218" key="GridCell.Tab.0.center" timestamp="1583415625895">
+    <state width="1379" height="218" key="GridCell.Tab.0.bottom/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583417038276" />
+    <state width="1379" height="218" key="GridCell.Tab.0.center" timestamp="1583417038276">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.center/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583415625895" />
-    <state width="1379" height="218" key="GridCell.Tab.0.left" timestamp="1583415625895">
+    <state width="1379" height="218" key="GridCell.Tab.0.center/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583417038276" />
+    <state width="1379" height="218" key="GridCell.Tab.0.left" timestamp="1583417038276">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.left/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583415625895" />
-    <state width="1379" height="218" key="GridCell.Tab.0.right" timestamp="1583415625895">
+    <state width="1379" height="218" key="GridCell.Tab.0.left/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583417038276" />
+    <state width="1379" height="218" key="GridCell.Tab.0.right" timestamp="1583417038276">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1379" height="218" key="GridCell.Tab.0.right/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583415625895" />
+    <state width="1379" height="218" key="GridCell.Tab.0.right/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583417038276" />
     <state x="220" y="72" key="SettingsEditor" timestamp="1583402863059">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="220" y="72" key="SettingsEditor/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583402863059" />
-    <state x="311" y="162" key="Vcs.Push.Dialog.v2" timestamp="1583414432468">
+    <state x="311" y="162" key="Vcs.Push.Dialog.v2" timestamp="1583416570037">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="311" y="162" key="Vcs.Push.Dialog.v2/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414432468" />
-    <state x="382" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583414239389">
+    <state x="311" y="162" key="Vcs.Push.Dialog.v2/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583416570037" />
+    <state x="382" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583480051536">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="382" y="181" width="672" height="678" key="search.everywhere.popup/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583414239389" />
+    <state x="382" y="181" width="672" height="678" key="search.everywhere.popup/1440.-37.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1583480051536" />
   </component>
 </project>

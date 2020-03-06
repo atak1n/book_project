@@ -28,8 +28,13 @@ class BooksCreatView(CreateView):
 
 
 class BooksUpdateView(UpdateView):
-    pass
+    model = Book
+    template_name = 'books_update.html'
+    fields = ['title', 'year', 'author', 'price']
+
 
 
 class BooksDeleteView(DeleteView):
-    pass
+    model = Book
+    template_name = 'books_delete.html'
+    success_url = 'home.html'
